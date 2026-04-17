@@ -7,10 +7,16 @@
     "dev": "nodeomon src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ved Pandey",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1"
   }
 }
